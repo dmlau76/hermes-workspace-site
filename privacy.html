@@ -48,12 +48,17 @@ accept sign-ups, and does not access data belonging to anyone else.</p>
 </ul>
 
 <h2>Where data is processed and stored</h2>
-<p>All processing happens on computer hardware owned and administered by the operator.
-Messages, calendar entries, and documents are held in memory only for the duration of a
-task and are not copied to any third-party service.</p>
+<p>Processing happens on computer hardware owned and administered by the operator. Messages,
+calendar entries, and documents are held in memory only for the duration of a task and are
+not copied to any third-party storage service.</p>
+<p>When the operator asks for AI-assisted work (for example, summarising a message or
+drafting a reply), the content needed for that task may be sent to the AI model provider
+configured for it. Those requests are made only on the operator's explicit instruction,
+never automatically in the background.</p>
 <p>The integration does not use any analytics, advertising, tracking, or profiling service,
-and it does not share, sell, rent, or disclose Google user data to any third party. Data is
-transferred only to Google's own APIs.</p>
+and it does not share, sell, rent, or disclose Google user data to any third party for
+advertising or resale. Data is transferred only to Google's own APIs and, as described
+above, to the AI providers the operator has configured.</p>
 
 <h2>Credentials</h2>
 <p>OAuth refresh tokens are stored in an encrypted keyring file on the operator's own
